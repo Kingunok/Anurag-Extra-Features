@@ -749,18 +749,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton(' SEARCH HERE ', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton(' CHANNEL ', url='https://t.me/fondness_movi'),
-            InlineKeyboardButton(' UPDATES ', url='https://t.me/source_code_fondness')
+            InlineKeyboardButton(' CHANNEL ', url='https://t.me/TG_Updates'),
+            InlineKeyboardButton(' UPDATES ', url='https://t.me/source_code_kushal')
             ],[
-            InlineKeyboardButton(' LIИK GENERATOR ', url='https://t.me/fondness_01_bot')
+            InlineKeyboardButton(' LIИK GENERATOR ', url='https://t.me/alright_autofilter_bot')
             ],[
             InlineKeyboardButton(' HELP ', callback_data='help'),
             InlineKeyboardButton('♻ ABOUT ♻', callback_data='about')
             ],[
-            InlineKeyboardButton(' ᖴᗩCEᗷOOK ', url='https://www.facebook.com/profile.php?id=100087875181009'),
-            InlineKeyboardButton(' IИSTAGᏒΛM ', url='https://www.instagram.com/kofhb.ae/')
+            InlineKeyboardButton(' ᖴᗩCEᗷOOK ', url='https://www.facebook.com'),
+            InlineKeyboardButton(' IИSTAGᏒΛM ', url='https://www.instagram.com')
             ],[
-            InlineKeyboardButton(' SUBSCᏒIBE  ', url='https://www.youtube.com/channel/UC4OrCH4sf8kWx6GirKmS_1g')
+            InlineKeyboardButton(' SUBSCᏒIBE  ', url='https://youtube.com/@kushalstatus')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -897,7 +897,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton(' 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 ', url='https://t.me/source_code_fondness')
+            InlineKeyboardButton(' 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 ', url='https://t.me/source_code_kushal')
             ],[
             InlineKeyboardButton(' 𝙷𝙾𝙼𝙴 ', callback_data='start'),
             InlineKeyboardButton(' 𝙲𝙻𝙾𝚂𝙴 ', callback_data='close_data')
