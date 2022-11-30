@@ -16,8 +16,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/kofhb",
-    "repository": "https://github.com/kofhb",
+    "website": "https://github.com/Kushalhk",
+    "repository": "https://github.com/Kushalhk",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -87,7 +87,7 @@
         },
         "SUPPORT_CHAT": {
             "description": "Updated Channel Username Without @ Not Chanel ID",
-            "value": "fondness_movi",
+            "value": "TG_Updates",
             "required": false
         },
         "IMDB": {
