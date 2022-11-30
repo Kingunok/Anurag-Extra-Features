@@ -9,8 +9,8 @@ from plugins.helper_functions.cust_p_filters import f_onw_fliter
 
 # -- Constants -- #
 ALIVE ="He's not dead, honey, he's here. You don't have any love for me anymore. Oh great.. You're not the same as wast. 😔 At least occasionally, just try one/start. 🙂"
-REPO = "<b>𝙳𝙴𝙿𝙻𝙾𝚈 𝚃𝚄𝚃𝙾𝚁𝙸𝙰𝙻 ›› https://www.youtube.com/channel/UC4OrCH4sf8kWx6GirKmS_1g</b>"
-CHANNEL = "<b>𝚈𝙾𝚄𝚃𝚄𝙱𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻</b> ›› https://www.youtube.com/channel/UC4OrCH4sf8kWx6GirKmS_1g\n<b>𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ›› https://t.me/fondness_movi</b>\n\n<b>𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ›› https://t.me/source_code_fondness</b>"
+REPO = "<b>𝙳𝙴𝙿𝙻𝙾𝚈 𝚃𝚄𝚃𝙾𝚁𝙸𝙰𝙻 ›› https://www.youtube.com/@kushalstatus</b>"
+CHANNEL = "<b>𝚈𝙾𝚄𝚃𝚄𝙱𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻</b> ›› https://www.youtube.com/@kushalstatus<b>𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ›› https://t.me/TG_Updates</b>\n\n<b>𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ›› https://t.me/source_code_kushal/b>"
 FONDNESS = "<b>𝙱𝙾𝚃 ›› https://t.me/fondness_01_bot</b>"
 # -- Constants End -- #
 
