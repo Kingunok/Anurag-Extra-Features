@@ -23,12 +23,12 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('𝙿𝚁𝙸𝚅𝙰𝚃𝙴 𝙱𝙾𝚃', url=f"https://t.me/fondness_01_Bot")
+                InlineKeyboardButton('𝙿𝚁𝙸𝚅𝙰𝚃𝙴 𝙱𝙾𝚃', url=f"https://t.me/alright_autofilter_bot")
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.PRIVATEBOT_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
-        await asyncio.sleep(2) # 😢 https://github.com/kofhb/Anurag-Extra-Features/blob/master/plugins/p_ttishow.py#L17 😬 wait a bit, before checking.
+        await asyncio.sleep(2) # 😢 https://github.com/Kushalhk/Anurag-Extra-Features/blob/master/plugins/p_ttishow.py#L17 😬 wait a bit, before checking.
         if not await db.get_chat(message.chat.id):
             total=await client.get_chat_members_count(message.chat.id)
             await client.send_message(LOG_CHANNEL, script.LOG_TEXT_G.format(message.chat.title, message.chat.id, total, "Unknown"))       
@@ -43,8 +43,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔥 SΞΛᏒCH HΞᏒΞ 🔥', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/fondness_movi'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/source_code_fondness')
+            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/TG_Updates'),
+            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/source_code_kushal')
             ],[
             InlineKeyboardButton('🔥 LIИK GΞИΞᏒΛTOᏒ 🔥', url='http://t.me/')
             ],[
@@ -54,7 +54,7 @@ async def start(client, message):
             InlineKeyboardButton('👑 ᖴᗩCΞᗷOOK 👑', url='https://www.facebook.com'),
             InlineKeyboardButton('🥇 IИSTΛGᏒΛM 🥇', url='https://www.instagram.com')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com')
+            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/@kushalstatus')
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_photo(
@@ -93,8 +93,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔥 SΞΛᏒCH HΞᏒΞ 🔥', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/fondness_movi'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/source_code_fondness')
+            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/TG_Updates'),
+            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/source_code_kushal')
             ],[
             InlineKeyboardButton('🔥 LIИK GΞИΞᏒΛTOᏒ 🔥', url='http://t.me/')
             ],[
@@ -104,7 +104,7 @@ async def start(client, message):
             InlineKeyboardButton('👑 ᖴᗩCΞᗷOOK 👑', url='https://www.facebook.com'),
             InlineKeyboardButton('🥇 IИSTΛGᏒΛM 🥇', url='https://www.instagram.com/')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/')
+            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/@kushalstatus')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
